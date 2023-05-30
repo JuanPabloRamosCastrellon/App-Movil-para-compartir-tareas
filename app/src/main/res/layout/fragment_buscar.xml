@@ -3,5 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< Updated upstream
     android:background="#173F5A"
     tools:context=".usescases.MenuFragments.Buscar" />
+=======
+    android:background="#FFCB77"
+    tools:context=".usescases.MenuFragments.Buscar.Buscar">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:queryHint="Buscar"
+        android:visibility="visible" />
+
+</FrameLayout>
+>>>>>>> Stashed changes
